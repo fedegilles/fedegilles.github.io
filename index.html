@@ -2,10 +2,96 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/vendor/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Mi portfolio</title>
   </head>
   <body>
-    <h1>Federico Gilles - Diseñador Web</h1>
+
+    <nav class="navbar">
+      <h1 class="main-title">Federico Gilles - Diseñador Grafico</h1>
+      <ul class="links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+    <div class="container">
+    <section id="about">
+      <article class="box">
+      <img class="perfil" src="img/imgperfi1.jpg" alt="fedegilles">
+      </article>
+      <article>
+      <h2>About</h2>
+      <p>Soy estudiante de Diseño y Comunicación Visual. Me considero una persona con ganas de aprender, paciente, capaz de trabajar tanto en equipo como de manera independiente, ordenado, influyente en el ambiente de trabajo.</p>
+      </article>
+    </section>
+    </div>
+
+    <div class="container1">
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Diseno de papeleria/flyer/Banners</p>
+      <ul class="portf">
+        <li ><img class="im" src="img/01.png" alt=""></li>
+        <li ><img class="im" src="img/03.png" alt=""></li>
+        <li ><img class="im" src="img/04.png" alt=""></li>
+        <li ><img class="im" src="img/05.png" alt=""></li>
+        <li ><img class="im" src="img/06.png" alt=""></li>
+        <li ><img class="im" src="img/14.png" alt=""></li>
+      </ul>
+      <h3>Video representativo cascanueces</h3>
+      <p>Video realizado para Universidad de Lanus, materia video, representacion ironica de cascanueces. Presentacion de personajes con final caotico</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Uv-r4ytFL98" frameborder="0" allowfullscreen></iframe>
+    </section>
+    </div>
+
+  </main>
+
+    <div class="container2">
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="#" method="post">
+      <div>
+        <label for="nombre">Nombre</label>
+      </div>
+      <div>
+        <input type="text" id="nombre" min="5" step="any" placeholder="Nombre" required/>
+      </div>
+      <div>
+        <label for="mail">Mail</label>
+      </div>
+      <div>
+        <input type="email" id="mail" min="5" step="any" placeholder="Mail" required/>
+      </div>
+      <div>
+        <label for="asunto">Asunto</label>
+      </div>
+      <div>
+        <input type="text" id="asunto" min="5" step="any" placeholder="asunto" required/>
+      </div>
+      <div>
+        <label for="comentarios">Comentarios</label>
+      </div>
+        <textarea cols="50" rows="" maxlength="10" id="comentarios" placeholder="Escriba sus comentarios aqui.." required></textarea>
+      <div>
+        <input type="submit" id="enviar" name="enviar">
+      </div>
+    </form>
+    </section>
+    </div>
+
+    <footer class="flexfooter">
+      <p>Fede Gilles Web Developer</p>
+      <div class="social">
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+
   </body>
 </html>
