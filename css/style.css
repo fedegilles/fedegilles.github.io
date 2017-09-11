@@ -1,3 +1,124 @@
 body {
   font-family: sans-serif;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 10px 0;
+  background: #000000;
+  justify-content: space-around;
+  font-family: sans-serif;
+  align-items: center;
+  height: 80px;
+}
+
+.main-title {
+  color: #FFFFFF;
+  font-size: large;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+main{
+  width: 90%;
+  margin: auto;
+
+}
+
+.container {
+}
+
+.container1 {
+}
+
+.container2 {
+background: #000000;
+color: #FFFFFF;
+}
+
+.perfil {
+  width: 20%;
+  margin-top: 5px;
+  border-radius: 200px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: auto;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.portf {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.portf li {
+  display: inline;
+}
+
+.im {
+  width: 200px;
+  height: auto;
+  transition: all 1s ease-out;
+}
+
+.im:hover {
+  transition: all 1s ease;
+  width: 250px;
+}
+
+form {
+  color: #000000;
+  margin: auto;
+  width: 500px;
+  border: solid 2px red;
+}
+
+.flexfooter {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background: #515151;
+  padding: 0 20px 0 20px;
+  letter-spacing: 3px;
+  color: #FFFFFF;
+}
+
+.social .fa{
+  font-size: 30px;
+  transition: all 0.5s ease-out;
+  margin: 0 5px 0 5px;
+}
+
+.social .fa:hover {
+  transition: all 0.5s ease-in;
+  transform: scale(1.8);
+  /*color: red;*/
+}
+
+.social a {
+  text-decoration: none;
+  color: #FFF;
 }
