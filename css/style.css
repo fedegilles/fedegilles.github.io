@@ -57,3 +57,50 @@ body {
   margin: auto;
   text-align: center;
 }
+
+/*Till here header*/
+
+.about {
+  height: 50px;
+  background-color: #000;
+}
+
+.about h2 {
+  color: #FFF;
+  margin:auto;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+/*Till here about navbar*/
+
+.abinfo {
+  border: solid 2px red;
+}
+
+.intro {
+  display: flex;
+  padding: 0 0 0;
+  justify-content: space-around;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.perfil {
+  width: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.intro p {
+  width: 400px;
+  margin: auto;
+  text-align: justify;
+}
+
+.vhr {
+  background: #000;
+  border:1px solid #000;
+  height:100px;
+  width: 1px;
+}
