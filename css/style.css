@@ -3,6 +3,10 @@ body {
   font-style: helvetica;
 }
 
+.navbar-inverse {
+  height: 60px;
+}
+
 /* Till here navbar */
 
 .head {
@@ -28,11 +32,8 @@ body {
 /*Till here header*/
 
 #about {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
-  background-image: url("../img/red1.png");
-  background-attachment: fixed;
-  background-position: bottom;
 }
 
 .imgperfil {
@@ -75,16 +76,25 @@ section p.text-muted {
 
 /*Till here sobre mí*/
 
+.hrconoc {
+  text-align: center;
+  background-color: #eff2f4;
+  width: 400px;
+  height: 2px;
+}
+
 .conocimientos {
   padding-top: 30px;
-  background-color: #eff2f4;
   padding-bottom: 30px;
+  background-image: url("../img/red1.png");
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 .conocimientos h2.conoci {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #4f4f4f;
 }
 
@@ -115,8 +125,8 @@ p {
 /*Till here conocimientos*/
 
 .intereses {
-  padding: inherit;
-  height: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-image: url("../img/red1.png");
   background-attachment: fixed;
   background-position: bottom;
@@ -164,15 +174,23 @@ p {
   background-image: url("../img/red1.png");
   background-attachment: fixed;
   background-position: bottom;
+  padding-bottom: 30px;
 }
 
 .videos h2.videos {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   color: #4f4f4f;
 }
 
 .videos h3.titulos {
   margin-bottom: 10px;
+}
+
+/*Till here videos*/
+
+footer {
+  height: 60px;
+  background-color: #282828;
 }
