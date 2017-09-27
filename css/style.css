@@ -28,7 +28,7 @@ body {
 /*Till here header*/
 
 section {
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 .imgperfil {
@@ -72,7 +72,7 @@ section p.text-muted {
 /*Till here sobre mí*/
 
 .conocimientos {
-  margin-top: 20px;
+  margin-top: 15px;
   background-color: #eff2f4;
 }
 
@@ -83,11 +83,82 @@ section p.text-muted {
   color: #4f4f4f;
 }
 
+.load {
+  border: 3px solid #d15700;
+  width: 205px;
+  height: 20px;
+}
+
 .skill {
-  border-radius: 50%;
   background-color: #d15700;
-  width: 50px;
-  height: 50px;
+  width: 4px;
+  height: 16px;
+  transition: all 2s ease-out;
+}
+
+p {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.skill:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 200px;
+  height: 16px;
+}
+/*Till here conocimientos*/
+
+.intereses {
+  padding: inherit;
+  height: 300px;
+  background-image: url("../img/red1.png");
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.intereses h2.interes {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #4f4f4f;
+}
+
+.iconos {
   margin: auto;
-  margin-bottom: 25px;
+  background: #d15700;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/*Till here interes*/
+
+.portfolio h2.portfolio {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #4f4f4f;
+}
+
+.ptf {
+  margin: auto;
+  margin-bottom: 5px;
+  background: #d15700;
+  height: 230px;
+  width: 350px;
+}
+
+/*Till here portfolio*/
+
+.videos {
+  background-color: #eff2f4;
+}
+
+.videos h2.videos {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #4f4f4f;
 }
