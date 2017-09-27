@@ -9,7 +9,7 @@ body {
   display: flex;
   height: 500px;
   margin: auto;
-  background-image: url('../img/fdohead.jpg');
+  background-image: url('../img/header.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -27,8 +27,12 @@ body {
 
 /*Till here header*/
 
-section {
-  padding: 60px 0;
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../img/red1.png");
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 .imgperfil {
@@ -72,8 +76,9 @@ section p.text-muted {
 /*Till here sobre mí*/
 
 .conocimientos {
-  margin-top: 15px;
+  padding-top: 30px;
   background-color: #eff2f4;
+  padding-bottom: 30px;
 }
 
 .conocimientos h2.conoci {
@@ -135,6 +140,10 @@ p {
 
 /*Till here interes*/
 
+.portfolio {
+  background-color: #eff2f4;
+}
+
 .portfolio h2.portfolio {
   text-align: center;
   font-size: 40px;
@@ -144,8 +153,7 @@ p {
 
 .ptf {
   margin: auto;
-  margin-bottom: 5px;
-  background: #d15700;
+  margin-bottom: 10px;
   height: 230px;
   width: 350px;
 }
@@ -153,7 +161,9 @@ p {
 /*Till here portfolio*/
 
 .videos {
-  background-color: #eff2f4;
+  background-image: url("../img/red1.png");
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 .videos h2.videos {
