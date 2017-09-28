@@ -104,14 +104,7 @@ section p.text-muted {
 .load {
   border: 3px solid #d15700;
   width: 205px;
-  height: 20px;
-}
-
-.skill {
-  background-color: #d15700;
-  width: 4px;
-  height: 16px;
-  transition: all 2s ease-out;
+  height: 25px;
 }
 
 p {
@@ -119,11 +112,116 @@ p {
   font-size: 20px;
 }
 
+.skill {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill1 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill2 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill3 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill4 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill5 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill6 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
+.skill7 {
+  background-color: #d15700;
+  width: 6px;
+  height: 20px;
+  transition: all 2s ease-out;
+}
+
 .skill:hover {
   transition: all 2s ease;
   background-color: #d15700;
   width: 200px;
-  height: 16px;
+  height: 20px;
+}
+
+.skill1:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 120px;
+  height: 20px;
+}
+
+.skill2:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 180px;
+  height: 20px;
+}
+
+.skill3:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 160px;
+  height: 20px;
+}
+
+.skill4:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 150px;
+  height: 20px;
+}
+
+.skill5:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 120px;
+  height: 20px;
+}
+
+.skill6:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 100px;
+  height: 20px;
+}
+
+.skill7:hover {
+  transition: all 2s ease;
+  background-color: #d15700;
+  width: 70px;
+  height: 20px;
 }
 /*Till here conocimientos*/
 
