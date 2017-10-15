@@ -3,6 +3,13 @@ body {
   font-style: helvetica;
 }
 
+main {
+  background-image: url("../img/red1.png");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* Till here navbar */
 
 .head {
@@ -30,9 +37,6 @@ body {
 #about {
   padding-top: 50px;
   padding-bottom: 30px;
-  background-image: url("../img/red1.png");
-  background-attachment: fixed;
-  background-position: bottom;
 }
 
 .imgperfil {
@@ -84,24 +88,21 @@ section p.text-muted {
 
 .conocimientos {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: url("../img/red1.png");
-  background-attachment: fixed;
-  background-position: bottom;
+  padding-bottom: 40px;
 }
 
 .conocimientos h2.conoci {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #4f4f4f;
 }
 
 .isos {
   display: block;
   margin: auto;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .isotit {
@@ -120,18 +121,18 @@ section p.text-muted {
 /*Till here conocimientos*/
 
 footer {
-  height: 120px;
+  height: 100px;
   background-color: #282828;
   text-align: center;
 }
 
 footer h3.fttit {
   color: #FFF;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .glyphicon-phone {
-  font-size: 20px;
+  font-size: 15px;
   color: #FFF;
   margin-right: 10px;
 }
