@@ -97,6 +97,26 @@ section p.text-muted {
   color: #4f4f4f;
 }
 
+.isos {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.isotit {
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.isop {
+  font-size: 15px;
+  text-align: justify;
+  margin: auto;
+}
+
 /*Till here conocimientos*/
 
 footer {
