@@ -97,197 +97,34 @@ section p.text-muted {
   color: #4f4f4f;
 }
 
-.load {
-  border: 3px solid #d15700;
-  width: 205px;
-  height: 25px;
-}
-
-p {
-  margin: 5px;
-  font-size: 20px;
-}
-
-.skill {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill1 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill2 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill3 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill4 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill5 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill6 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill7 {
-  background-color: #d15700;
-  width: 6px;
-  height: 20px;
-  transition: all 2s ease-out;
-}
-
-.skill:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 200px;
-  height: 20px;
-}
-
-.skill1:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 120px;
-  height: 20px;
-}
-
-.skill2:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 180px;
-  height: 20px;
-}
-
-.skill3:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 160px;
-  height: 20px;
-}
-
-.skill4:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 150px;
-  height: 20px;
-}
-
-.skill5:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 120px;
-  height: 20px;
-}
-
-.skill6:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 100px;
-  height: 20px;
-}
-
-.skill7:hover {
-  transition: all 2s ease;
-  background-color: #d15700;
-  width: 70px;
-  height: 20px;
-}
 /*Till here conocimientos*/
 
-.intereses {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: url("../img/red1.png");
-  background-attachment: fixed;
-  background-position: bottom;
-}
-
-.intereses h2.interes {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 40px;
-  color: #4f4f4f;
-}
-
-.iconos {
-  margin: auto;
-  background: #d15700;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-/*Till here interes*/
-
-.portfolio {
-  background-color: #eff2f4;
-}
-
-.portfolio h2.portfolio {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 40px;
-  color: #4f4f4f;
-}
-
-.ptf {
-  margin: auto;
-  margin-bottom: 10px;
-  height: 230px;
-  width: 350px;
-}
-
-/*Till here portfolio*/
-
-.videos {
-  background-image: url("../img/red1.png");
-  background-attachment: fixed;
-  background-position: bottom;
-  padding-bottom: 30px;
-}
-
-.videos h2.videos {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 10px;
-  color: #4f4f4f;
-}
-
-.videos h3.titulos {
-  margin-bottom: 10px;
-}
-
-/*Till here videos*/
-
 footer {
-  height: 60px;
+  height: 120px;
   background-color: #282828;
+  text-align: center;
+}
+
+footer h3.fttit {
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.glyphicon-phone {
+  font-size: 20px;
+  color: #FFF;
+  margin-right: 10px;
+}
+
+.conttext {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 30px;
+}
+
+.glyphicon-envelope {
+  font-size: 20px;
+  color: #FFF;
+  margin-right: 10px;
 }
