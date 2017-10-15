@@ -3,6 +3,10 @@ body {
   font-style: helvetica;
 }
 
+.navbar {
+  margin: auto;
+}
+
 main {
   background-image: url("../img/red1.png");
   background-attachment: fixed;
@@ -121,14 +125,15 @@ section p.text-muted {
 /*Till here conocimientos*/
 
 footer {
-  height: 100px;
+  height: auto;
+  padding: 5px 0 5px 0;
   background-color: #282828;
   text-align: center;
 }
 
 footer h3.fttit {
   color: #FFF;
-  margin-bottom: 20px;
+  margin: 0 0 10px 0;
 }
 
 .glyphicon-phone {
@@ -141,7 +146,7 @@ footer h3.fttit {
   color: #FFF;
   font-size: 20px;
   font-weight: normal;
-  margin-right: 30px;
+  padding: 0 0 5px 0;
 }
 
 .glyphicon-envelope {
