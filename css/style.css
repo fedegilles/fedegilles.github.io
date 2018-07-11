@@ -34,7 +34,7 @@ body {
 #signature {
   width: 70%;
   margin: auto;
-  margin-top: 15%;
+  margin-top: 12%;
   display: block;
   opacity: 0;
   animation: signature 6s ;  
@@ -82,7 +82,7 @@ p {
   font-weight: bolder;
   font-size: 50px;
   text-align: center;
-  margin-top: -50px;
+  margin-top: -70px;
   opacity: 0;
   animation: prox 4s;
   animation-delay: 13s;
