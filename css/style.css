@@ -1,156 +1,107 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Gilles federico Portfolio
+Version:  2.0
+Autor: Fedegilles
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+
+[My kind of contents]
+[CSS styles in its order of appearance in HTML]
+[To search for a specific css style search it in its order of appearance in the HTML file]
+
+1.index
+
+-------------------------------------------------------------------*/
+
+
+
 body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+}
+
+
+/*==============================*/
+/*====== 1.index ======*/
+/*==============================*/
+
+#signature {
+  width: 70%;
   margin: auto;
-  font-style: helvetica;
-}
-
-.navbar {
-  margin: auto;
-}
-
-main {
-  background-image: url("../img/red1.png");
-  background-attachment: fixed;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* Till here navbar */
-
-.head {
-  display: flex;
-  height: 500px;
-  margin: auto;
-  background-image: url('../img/header.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.head h1 {
-  color: white;
-  font-size: 60px;
-  font-weight: bold;
-  font-family: helvetica;
-  letter-spacing: 1px;
-  margin: auto;
-  text-align: center;
-}
-
-/*Till here header*/
-
-#about {
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-
-.imgperfil {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  margin-top: 15%;
   display: block;
-  margin: auto;
-  margin-bottom: 30px;
+  opacity: 0;
+  animation: signature 6s ;  
 }
 
-section h2.section-heading {
-  font-size: 60px;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: bold;
-  text-align: justify;
+@keyframes signature {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
-section h4.service-heading {
-  font-size: 30px;
-  margin-top: 0;
-  margin-bottom: 10px;
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  margin-top: -300px;
+  opacity: 0;
+  animation: name 5s;
+  animation-delay: 7s;
+}
+
+@keyframes name {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  margin-top: -50px;
+  opacity: 0;
+  animation: prox 4s;
+  animation-delay: 13s;
+}
+
+@keyframes prox {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.mavenfont {
+  font-family: 'Maven Pro', sans-serif;
   font-weight: lighter;
-  text-align: justify;
-  color: #4f4f4f;
-}
-
-section p.text-muted {
-  font-size: 18px;
-  text-align: justify;
-  color: #848484;
-  line-height: 30px;
-}
-
-.destacado {
-  color: #d15700;
-  letter-spacing: 1.25px
-}
-
-/*Till here sobre mí*/
-
-.hrconoc {
-  text-align: center;
-  background-color: #eff2f4;
-  width: 400px;
-  height: 2px;
-}
-
-.conocimientos {
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-.conocimientos h2.conoci {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 10px;
-  color: #4f4f4f;
-}
-
-.isos {
-  display: block;
-  margin: auto;
-  height: 150px;
-  width: 150px;
-}
-
-.isotit {
-  text-align: center;
-  font-size: 30px;
-  margin: auto;
-  margin-bottom: 15px;
-}
-
-.isop {
-  font-size: 15px;
-  text-align: justify;
-  margin: auto;
-}
-
-/*Till here conocimientos*/
-
-footer {
-  height: auto;
-  padding: 5px 0 5px 0;
-  background-color: #282828;
-  text-align: center;
-}
-
-footer h3.fttit {
-  color: #FFF;
-  margin: 0 0 10px 0;
-}
-
-.glyphicon-phone {
-  font-size: 15px;
-  color: #FFF;
-  margin-right: 10px;
-}
-
-.conttext {
-  color: #FFF;
-  font-size: 20px;
-  font-weight: normal;
-  padding: 0 0 5px 0;
-}
-
-.glyphicon-envelope {
-  font-size: 20px;
-  color: #FFF;
-  margin-right: 10px;
 }
