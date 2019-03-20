@@ -2,17 +2,51 @@
 [Master Stylesheet]
 
 Project:  Gilles federico Portfolio
-Version:  2.1
-Autor: Fedegilles / Firefly Studio group
+Version:  2.1 - In construction 
+Autor: Fedegilles / Firefly Studio group and Banana Paradox creative studio
 
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
 
 
-[My kind of content]
+[Contents]
 
-1.index
+1.Body
 
 -------------------------------------------------------------------*/
 
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	background-image: url('../img/back.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container div {
+	text-align: center;
+}
+
+.container h1 {
+	color: #ccc;
+}
+
+.container p {
+	color: #ccc;
+}
+
+.container i {
+	color: #ccc;
+	padding: 5px;
+	width: 15px;
+}
