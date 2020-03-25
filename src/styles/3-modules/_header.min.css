@@ -1,0 +1,1 @@
+header{margin:0;padding:0 50px 50px 50px;height:100vh;display:flex;justify-content:flex-end;align-items:center;flex-direction:column;background-color:#000;background-image:url("../img/header.jpg");background-position:center;background-size:cover}header img{max-width:20em}@media only screen and (min-width: 1024px){header img{max-width:30em}}header h1{color:#fff;margin:30px 0}

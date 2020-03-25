@@ -1,53 +1,11 @@
 //	Headings
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Open+Sans:400,400i,600,700,800|Roboto:300,400,400i,500,700,900&display=swap');
 
 // add your own type in this stylesheet
 
 @font-face {
-  font-family: 'Gotham-Black';
-  src: url('../fonts/Gotham-Black.otf');
 }
-
-@font-face {
-  font-family: 'Gotham-Bold';
-  src: url('../fonts/Gotham-Bold.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-Book';
-  src: url('../fonts/Gotham-Book.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-BookItalic';
-  src: url('../fonts/Gotham-BookItalic.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-Light';
-  src: url('../fonts/Gotham-Light.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-LightItalic';
-  src: url('../fonts/Gotham-LightItalic.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-Thin';
-  src: url('../fonts/Gotham-Thin.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-ThinItalic';
-  src: url('../fonts/Gotham-ThinItalic.otf');
-}
-
 // variables for fonts
 
 $gotham-black: 'Gotham-Black', Helvetica, Arial, sans-serif;
-$gotham-bold: 'Gotham-Bold', Helvetica, Arial, sans-serif;
-$gotham-book: 'Gotham-Book', Helvetica, Arial, sans-serif;
-$gotham-light: 'Gotham-Light', Helvetica, Arial, sans-serif;
-$helvetica-roman: 'Gotham-Thin', Helvetica, Arial, sans-serif;
