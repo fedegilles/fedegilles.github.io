@@ -20,15 +20,31 @@ header {
   }
 
   img {
-    max-width: 20em;
+    max-width: 200px;
+
+    @media only screen and (min-width: 760px) {
+      max-width: 300px;
+    }
 
     @media only screen and (min-width: 1024px) {
-      max-width: 30em;
+      max-width: 400px;
+    }
+
+    @media only screen and (min-width: 2500px) {
+      max-width: 500px;
     }
   }
 
   h1 {
     color: #fff;
     margin: 30px 0;
+
+    @media only screen and (min-width: 1024px) {
+      margin: 50px 0;
+    }
+
+    @media only screen and (min-width: 2500px) {
+      margin: 80px 0;
+    }
   }
 }
