@@ -1,7 +1,7 @@
 // Global mixins
 // Fonts
-// font-family: 'Vollkorn', serif;
-// font-family: 'Lustria', serif;
+// font-family: 'Bebas Neue', cursive;
+// font-family: 'Lato', sans-serif;
 // font-family: 'Open Sans', sans-serif;
 // font-family: 'Roboto', sans-serif;
 
@@ -17,10 +17,10 @@
 
 // Titles Font mixin
 @mixin tittle() {
-    font-family: 'Vollkorn', serif;
+    font-family: 'Lato', serif;
     font-size: 2em;
     font-weight: 400;
-    color: $zp-color-oil;
+    color: #fff;
 
     @media only screen and (min-width: 700px) {
 
@@ -39,7 +39,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8em;
     font-weight: 400;
-    color: $zp-color-red;
+    color: #fff;
 
     @media only screen and (min-width: 700px) {
 

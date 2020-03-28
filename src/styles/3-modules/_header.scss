@@ -2,7 +2,7 @@
 
 header {
   margin: 0;
-  padding: 0 50px 50px 50px;
+  padding: 0 50px;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
@@ -21,6 +21,7 @@ header {
 
   img {
     max-width: 200px;
+    margin-bottom: 50px;
 
     @media only screen and (min-width: 760px) {
       max-width: 300px;
@@ -33,11 +34,22 @@ header {
     @media only screen and (min-width: 2500px) {
       max-width: 500px;
     }
+
+    //== Media quyeries para visualización en landscape con rango para dispositivos mobiles.
+   @media only screen
+     and (min-device-width: 375px)
+     and (max-device-width: 850px)
+     and (orientation: landscape) {
+     max-width: 200px;
+   }
+   //==
+
   }
 
   h1 {
     color: #fff;
     margin: 30px 0;
+    @include tittle ();
 
     @media only screen and (min-width: 1024px) {
       margin: 50px 0;
