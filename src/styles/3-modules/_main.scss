@@ -11,7 +11,9 @@
     padding: 100px 50px;
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1440px) {
+    width: 80vw;
+    margin: auto;
   }
 
   @media only screen and (min-width: 1900px) {
@@ -33,29 +35,37 @@
   .m-intro {
     display: grid;
     grid-template-columns: 1;
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 25px;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 500px) {
       grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1;
     }
 
     @media only screen and (min-width: 1024px) {
     }
 
     .mi-copy {
+      grid-column: 1;
+      grid-row: 1 / 4;
+      z-index: 3;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 500px) {
         grid-row: 1;
         grid-column: 1 / 4;
-        z-index: 3;
       }
 
       h2 {
         font-family: 'Bebas Neue', sans-serif;
-        font-size: 2.5em;
+        font-size: 2.4em;
         font-weight: 400;
         color: #fff;
         margin: 10px 0;
+
+        @media only screen and (min-width: 360px) {
+          font-size: 3em;
+        }
 
         @media only screen and (min-width: 768px) {
           font-size: 5.5em;
@@ -72,30 +82,13 @@
     }
 
     .mi-img {
-      max-width: 100%;
-      height: 300px;
-      // Solo para darle cuerpo a la "img" (en este caso es un div), luego cuando se cambie por una img se le dara tamaño
+      width: 100%;
+      grid-column: 1;
+      grid-row: 2 / 4;
 
-      @media only screen and (min-width: 768px) {
+      @media only screen and (min-width: 500px) {
         grid-row: 1;
         grid-column: 2 / 4;
-        // Si son imgs intercambiables tendran un div con tamaño y de ahi se modificara
-        height: 100%;
-      }
-
-      .img {
-        background-color: #ccc;
-        width: 100%;
-        height: 100%;
-
-        @media only screen and (min-width: 1024px) {
-          margin: auto;
-          width: 80%;
-        }
-
-        @media only screen and (min-width: 1900px) {
-          width: 70%;
-        }
       }
     }
   }
