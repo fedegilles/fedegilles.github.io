@@ -93,7 +93,7 @@
       }
     }
   }
-  // Fin m-intro
+  // Fin seccion m-intro
 
   .m-about {
     display: grid;
@@ -148,5 +148,57 @@
         }
       }
     }
+  }
+  //Fin seccion m-about
+
+  .m-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+      color: #fff;
+      @include subtittle();
+      font-size: 2.5em;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    p {
+      color: #fff;
+      @include text();
+    }
+
+    .mc-social {
+      width: 150px;
+      padding: 20px 20px 50px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      a {
+        color: #fff;
+
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+
+    .mc-contact {
+      color: #fff;
+      padding: 10px;
+      @include text();
+      font-size: 1.5em;
+      font-weight: 700;
+      border: solid 3px #fff;
+      transition: .5s ease-out;
+    }
+  }
+
+  .mc-contact:hover {
+    color: #000;
+    background-color: #fff;
   }
 }
