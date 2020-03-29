@@ -19,31 +19,62 @@ header {
   @media only screen and (min-width: 1024px) {
   }
 
-  img {
+  // img {
+  //   max-width: 200px;
+  //   margin-bottom: 50px;
+  //
+  //   @media only screen and (min-width: 760px) {
+  //     max-width: 300px;
+  //   }
+  //
+  //   @media only screen and (min-width: 1024px) {
+  //     max-width: 400px;
+  //   }
+  //
+  //   @media only screen and (min-width: 2500px) {
+  //     max-width: 500px;
+  //   }
+  //
+  //   //== Media quyeries para visualización en landscape con rango para dispositivos mobiles.
+  //  @media only screen
+  //    and (min-device-width: 375px)
+  //    and (max-device-width: 850px)
+  //    and (orientation: landscape) {
+  //    max-width: 200px;
+  //  }
+  //  //==
+  //
+  // }
+
+  #lottie {
     max-width: 200px;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    opacity: 1;
 
     @media only screen and (min-width: 760px) {
       max-width: 300px;
     }
 
     @media only screen and (min-width: 1024px) {
-      max-width: 400px;
-    }
-
-    @media only screen and (min-width: 2500px) {
       max-width: 500px;
     }
 
-    //== Media quyeries para visualización en landscape con rango para dispositivos mobiles.
-   @media only screen
-     and (min-device-width: 375px)
-     and (max-device-width: 850px)
-     and (orientation: landscape) {
-     max-width: 200px;
-   }
-   //==
+    @media only screen and (min-width: 1900px) {
+      max-width: 600px;
+    }
 
+    // == Media quyeries para visualización en landscape con rango para dispositivos mobiles.
+     @media only screen
+       and (min-device-width: 375px)
+       and (max-device-width: 850px)
+       and (orientation: landscape) {
+       max-width: 200px;
+     }
   }
 
   h1 {
