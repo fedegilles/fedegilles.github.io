@@ -2,6 +2,7 @@
 
 footer {
   padding: 50px;
+  background-color: #0D0D0D;
   display: flex;
   flex-direction: column;
 
@@ -11,7 +12,9 @@ footer {
     grid-gap: 20px;
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1900px) {
+    padding: 50px 20vw;
+    margin: auto;
   }
 
   .f-copy {
@@ -83,11 +86,11 @@ footer {
   }
 
   .f-legal {
-    padding: 50px;
     display: flex;
     flex-direction: column;
 
     @media only screen and (min-width: 600px) {
+      padding: 0 50px;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 20px;
@@ -99,6 +102,10 @@ footer {
         display: none;
         color: #fff;
         @include text()
+
+        @media only screen and (min-width: 600px) {
+          display: block;
+        }
       }
     }
 
@@ -112,7 +119,7 @@ footer {
       }
 
       img {
-        max-width: 150px;
+        max-width: 100px;
       }
     }
   }
