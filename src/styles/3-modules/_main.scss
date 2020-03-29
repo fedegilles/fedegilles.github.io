@@ -160,9 +160,13 @@
     h3 {
       color: #fff;
       @include subtittle();
-      font-size: 3em;
+      font-size: 2.5em;
       font-weight: 700;
       margin: 0;
+
+      @media only screen and (min-width: 1024px) {
+        font-size: 3em;
+      }
     }
 
     p {
