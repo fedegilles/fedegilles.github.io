@@ -101,7 +101,8 @@ footer {
       p {
         display: none;
         color: #fff;
-        @include text()
+        @include text();
+        font-size: 0.8em;
 
         @media only screen and (min-width: 600px) {
           display: block;
