@@ -1,0 +1,131 @@
+// Footer sections
+
+footer {
+  padding: 50px;
+  background-color: #0D0D0D;
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 600px) {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 20px;
+  }
+
+  @media only screen and (min-width: 1900px) {
+    padding: 50px 20vw;
+    margin: auto;
+  }
+
+  .f-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media only screen and (min-width: 600px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    div:nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      @media only screen and (min-width: 600px) {
+        padding: 10px 0;
+      }
+
+      img {
+        max-width: 100px;
+        margin: auto;
+      }
+
+      .fc-social {
+        width: 150px;
+        padding: 20px 20px 50px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+
+        a {
+          color: #fff;
+
+          i {
+            font-size: 1.5em;
+          }
+        }
+      }
+    }
+
+    div {
+      padding: 10px 0;
+
+      @media only screen and (min-width: 600px) {
+        height: 100%;
+        width: auto;
+        margin: auto;
+      }
+
+      h5 {
+        margin: 10px 0;
+        color: #fff;
+        @include subtittle()
+        font-weight: 700;
+      }
+
+      p {
+        color: #fff;
+        @include text()
+      }
+    }
+  }
+
+  .f-legal {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: 600px) {
+      padding: 0 50px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+
+    div {
+
+      p {
+        display: none;
+        color: #fff;
+        @include text();
+        font-size: 0.8em;
+
+        @media only screen and (min-width: 600px) {
+          display: block;
+        }
+      }
+    }
+
+    div:nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media only screen and (min-width: 600px) {
+        justify-content: flex-end;
+      }
+
+      a {
+        width: 100px;
+
+        img {
+          max-width: 100px;
+        }
+      }
+    }
+  }
+}
