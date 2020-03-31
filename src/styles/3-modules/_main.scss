@@ -101,7 +101,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
 
-    @media only screen and (min-width: 500px) {
+    @media only screen and (min-width: 1024px) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
       grid-gap: 25px;
@@ -112,7 +112,7 @@
       grid-column: 1;
       grid-row: 2;
 
-      @media only screen and (min-width: 500px) {
+      @media only screen and (min-width: 1024px) {
         grid-column: 1;
         grid-row: 1;
       }
@@ -123,15 +123,26 @@
       grid-row: 1;
       height: auto;
 
-      @media only screen and (min-width: 500px) {
+      @media only screen and (min-width: 1024px) {
         grid-column: 2;
         grid-row: 1;
       }
 
       @media only screen and (min-width: 1024px) {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      h3 {
+        color: #fff;
+        @include subtittle();
+        font-size: 2.5em;
+        font-weight: 700;
+
+        @media only screen and (min-width: 1024px) {
+          font-size: 3em;
+        }
       }
 
       p {
