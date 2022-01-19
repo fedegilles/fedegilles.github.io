@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+.text-heading-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.copy {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+@media screen and (min-width:768px) {
+    .text-heading-h1 {
+        font-size: 3em;
+    }
+    
+}

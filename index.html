@@ -11,13 +11,18 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
     <title>fedegilles</title>
 </head>
 <body>
 
     <!-- Navbar starts here -->
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="w-5" src="public/img/fedeGilles.png" alt="">
             </a>
@@ -29,18 +34,37 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-end">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        <a class="nav-link text-primary" aria-current="page" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link text-primary" href="#">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact me</a>
+                        <a class="nav-link text-highlight highlight" href="#">Contact me</a>
                     </li>
                 </ul>
             </div>
         </div>
-      </nav>
+    </nav>
+
+    <main class="min-vh-80 d-flex align-items-start align-items-md-center justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="order-2 order-md-1 col-xs-12 col-md-6 d-flex flex-column align-items-start justify-content-center">
+                    <h1 class="mb-3 text-heading-h1">Fede Gilles</h1>
+                    <p class="copy">Soy Fede, Diseñador de producto trabajando desde Argentina.<br>
+                    Me gusta trabajar a la par con los equipos de desarrolladoro, pensando en conjunto la mejor experiencia que queremos crear para nuestros productos.<br>
+                    Saco fotos 📸, miro walkthrough de juegos como series 🕹, tengo un cuaderno de dibujo donde anoto más de lo que dibujo ✍🏽, estoy empezando a escribir más y a veces codeo 💻.<br>
+                    <br>
+                    Hoy aprendiendo sobre Crypto y Blockchain un dai a la vez.</p>
+                </div>
+                
+                <div class="order-1 order-md-2 col-xs-12 col-md-6 d-flex align-items-center justify-content-start justify-content-md-end">
+                    <img class="profile-pic" src="public/img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
     
 
     <!-- Bootstrap JS -->
