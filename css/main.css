@@ -1,0 +1,69 @@
+.text-primary {
+  color: #111111 !important; }
+
+.text-highlight {
+  color: #E09F3E !important; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.highlight {
+  font-weight: 700; }
+
+.highlight-primary {
+  color: #111111; }
+
+.highlight-secondary {
+  color: #E09F3E; }
+
+.highlight-third {
+  color: #540B0E; }
+
+.highlight-fourth {
+  color: #9E2A2B; }
+
+.highlight-fifth {
+  color: #FFF3B0; }
+
+.highlight-six {
+  color: #335C67; }
+
+.text-heading-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700; }
+
+.copy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100; }
+
+@media screen and (min-width: 768px) {
+  .text-heading-h1 {
+    font-size: 3em; } }
+
+.icons {
+  background-color: #111111;
+  padding: 6px;
+  border-radius: 4px;
+  transition: all .3s ease; }
+  .icons:hover {
+    cursor: pointer;
+    transform: scale(1.1); }
+
+svg {
+  transition: all .3s ease; }
+
+svg:hover {
+  cursor: pointer;
+  transform: scale(1.1); }
+
+.profile-pic {
+  width: 80px;
+  margin-bottom: 25px; }
+
+@media screen and (min-width: 768px) {
+  .profile-pic {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 0; } }
