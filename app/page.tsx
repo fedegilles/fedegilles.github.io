@@ -186,8 +186,8 @@ export default function Personal() {
               rel="noopener noreferrer"
               key={job.id}
             >
-              <Spotlight className="opacity-100"/>
-              <div className="relative z-10 h-full w-full rounded-[15px] bg-white p-4 dark:bg-zinc-950">
+              <Spotlight />
+              <div className="relative rounded-[15px] bg-white p-4 dark:bg-zinc-950">
                 <div className="relative flex w-full flex-row justify-between">
                   <div>
                     <h4 className="font-normal dark:text-zinc-100">
