@@ -37,40 +37,56 @@ export const PROJECTS: Project[] = [
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
   },
-  {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
-  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    company: 'PERRO Agency',
+    title: 'Co-Founder - Product Design Director',
+    start: '2023',
     end: 'Present',
-    link: 'https://ibelick.com',
+    link: 'https://www.linkedin.com/company/perroagency/',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
+    company: 'Adcap Securities',
+    title: 'Lead Product Designer',
     start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
+    end: '2023',
+    link: 'https://www.linkedin.com/company/adcap-securities/',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
+    company: 'Coderhouse',
+    title: 'Web Development Teacher',
+    start: '2021',
+    end: '2022',
+    link: 'https://www.linkedin.com/school/coderhouse/',
     id: 'work3',
+  },
+  {
+    company: 'Flinco',
+    title: 'Sr. Product Designer',
+    start: '2022',
+    end: '2022',
+    link: 'https://www.linkedin.com/company/planhopper/',
+    id: 'work4',
+  },
+  {
+    company: 'PhinxLab',
+    title: 'Sr. UX/UI Designer',
+    start: '2021',
+    end: '2022',
+    link: 'https://www.linkedin.com/company/phinx/',
+    id: 'work5',
+  },
+  {
+    company: 'Rocketbot RPA Suite',
+    title: 'UI Designer, Web developer',
+    start: '2020',
+    end: '2021',
+    link: 'https://www.linkedin.com/company/rocketrobot/',
+    id: 'work6',
   },
 ]
 
@@ -81,45 +97,25 @@ export const BLOG_POSTS: BlogPost[] = [
     link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
     uid: 'blog-1',
   },
-  {
-    title: 'Why I left my job to start my own company',
-    description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
-  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
+    link: 'https://github.com/fedegilles',
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://x.com/FedGilles',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://www.linkedin.com/in/fedegilles',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.instagram.com/fedegilles/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'fedegilles@gmail.com'
