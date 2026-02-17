@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'Fedegrico Gilles - Product Designer',
+    default: 'Federico Gilles - Product Designer',
     template: '%s | Federico Gilles',
   },
   description:  'Product Designer based in Buenos Aires',
